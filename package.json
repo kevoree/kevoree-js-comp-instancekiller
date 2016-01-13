@@ -1,0 +1,31 @@
+{
+  "name": "kevoree-comp-kevoreeinstancekiller",
+  "version": "1.0.0",
+  "description": "when trigger input port is called this component delete randombly an instance of the model whick match the defined key/value dictionary entry (it might be itself).",
+  "main": "./lib/KevoreeInstanceKiller.js",
+  "kevoree": {
+    "package": "fr.mleduc.kevoree.container"
+  },
+  "scripts": {
+    "prepublish": "grunt",
+    "postpublish": "grunt publish"
+  },
+  "keywords": [
+    "kevoree-std-lib",
+    "kevoree",
+    "library",
+    "comp"
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "kevoree-entities": "^8.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-kevoree": "^5.0.0",
+    "grunt-kevoree-genmodel": "^2.0.0",
+    "grunt-kevoree-registry": "^2.0.0"
+  },
+  "license": "MIT",
+  "author": "Manuel Leduc"
+}
