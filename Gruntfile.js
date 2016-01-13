@@ -17,12 +17,21 @@ module.exports = function (grunt) {
 
         kevoree_registry: {
             src: 'kevlib.json'
+        },
+        jslint: {
+            src: ['lib/*'],
+            directives: {
+                node: true,
+                nomen: true
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-kevoree');
     grunt.loadNpmTasks('grunt-kevoree-genmodel');
     grunt.loadNpmTasks('grunt-kevoree-registry');
+    grunt.loadNpmTasks('grunt-jslint');
+
 
     grunt.registerTask('default', 'build');
     grunt.registerTask('build', 'Build Kevoree module', function () {

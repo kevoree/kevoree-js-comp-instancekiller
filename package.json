@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "grunt": "^0.4.1",
+    "grunt-jslint": "^1.1.14",
     "grunt-kevoree": "^5.0.0",
     "grunt-kevoree-genmodel": "^2.0.0",
     "grunt-kevoree-registry": "^2.0.0"
