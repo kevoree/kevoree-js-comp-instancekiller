@@ -4,7 +4,7 @@
   "description": "when trigger input port is called this component delete randombly an instance of the model whick match the defined key/value dictionary entry (it might be itself).",
   "main": "./lib/KevoreeInstanceKiller.js",
   "kevoree": {
-    "package": "fr.mleduc.kevoree.container"
+    "package": "org.kevoree.library"
   },
   "scripts": {
     "prepublish": "grunt",
