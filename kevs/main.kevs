@@ -6,6 +6,9 @@ add chan : LocalChannel
 
 attach node0 sync
 
+set node0.killer.key = 'keyex'
+set node0.killer.value = 'valueex'
+
 bind node0.killer.trigger chan
 bind node0.ticker.tick chan
 
